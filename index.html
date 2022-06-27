@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashnode</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"> </script>
+
+</head>
+
+<body>
+
+    <div class="main-body">
+        <header class="header">
+            <div class="navbar">
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
+                <div class="side-bar-1 mobile-nav">
+                    <div class="mobile-indiv">
+                        <div class="brand">
+                            <img src="./images/brand-icon.png" class="brand-icon">
+                            <h1 class="brand-name">TechSnap</h1>
+                        </div>
+                        <div class="side-bar-center-1">
+                            <ul class="list-1">
+                                <li class="list-item-1">
+                                    <i class="list-item-icon-1 fas fa-home"></i>
+                                    <span class="list-item-text-1">My Feed</span>
+                                </li>
+                                <li class="list-item-1">
+                                    <i class="list-item-icon-1 fas fa-search"></i>
+                                    <span class="list-item-text-1">Drafts</span>
+                                </li>
+                                <li class="list-item-1 active">
+                                    <i class="list-item-icon-1 fas fa-stream"></i>
+                                    <span class="list-item-text-1">Bookmarks </span>
+                                </li>
+                                <li class="list-item-1">
+                                    <i class="list-item-icon-1 fas fa-book"></i>
+                                    <span class="list-item-text-1">Explore</span>
+                                </li>
+                                <li class="list-item-1">
+                                    <i class="list-item-icon-1 fas fa-users"></i>
+                                    <span class="list-item-text-1">Search</span>
+                                </li>
+                                <li class="list-item-1">
+                                    <i class="list-item-icon-1 fas fa-toolbox"></i>
+                                    <span class="list-item-text">More</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- <div>
+                            <div class="about">
+                                <p>Hashnode</p>
+                                <p>Connect with us</p>
+                            </div>
+
+                        </div> -->
+                    </div>
+                </div>
+                <div class="brand">
+                    <img src="./images/brand-icon.png" class="brand-icon">
+                    <h1 class="brand-name">TechSnap</h1>
+                </div>
+                <div class="search-wrap">
+                    <!-- <button class="search-btn"><i class="fas fa-search"> </i></button>  -->
+                    <input type="text" placeholder="&nbsp;  &nbsp; Search for tags, people, articles, and many more"
+                        class="input-text">
+                </div>
+                <div>
+                    <div class="write-btn">
+                        <a class="link">
+                            <i class="pen fa-solid fa-pen"></i>
+                            <span class="write-text">Write</span>
+                        </a>
+                        <div class="hr-line"></div>
+                        <button class="accordion-btn">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Right end nav -->
+                <div class="right-end-nav">
+                    <div class="icon">
+                        <button class="icon icon-1">
+                            <img src="./images/network.png" class="img-icon">
+                            <!-- <i class="fa-brands fa-google"></i> -->
+                        </button>
+                    </div>
+                    <button class="icon icon-2">
+                        <img src="./images/moon.png" class="img-icon">
+
+                    </button>
+                    <div>
+                        <button class="icon">
+                            <img src="./images/bell.png" class="img-icon">
+
+                        </button>
+                    </div>
+                    <!-- <div>
+                        <button class="profile-btn">
+                            <img src="./images/profilehashnode.webp" class="profile">
+                        </button>
+                    </div> -->
+
+                    <div class="action ">
+                        <div class="profile profile-btn " onclick="menuToggle()">
+                            <img src="./images/profilehashnode.webp">
+                        </div>
+
+                        <div class="menu">
+                            <div class="profile-sec">
+                                <img class="profile-sec-img" src="./images/profilehashnode.webp">
+                                <h3> Siddhi Vigneshwar <br> <span> &nbsp; vigneshwar@gmial.com </span> </h3>
+                            </div>
+                            <div class="profile-add">
+                                <h2 class="profile-head">Start a personal blog</h2>
+                                <p class="profile-para">Create a personal blog for personal use.</p>
+                            </div>
+
+                            <ul>
+                                <li> <a class="link" href="#"><img src="./images/user.png">My Profile </a> </li>
+                                <li> <a class="link" href="#"> <i class="fas fa-home icon"></i>Edit Profile </a> </li>
+                                <li> <a class="link " href="#"> <img class="pp-icon-img"
+                                            src="./images/bookamerk-img.png">Bookmarks </a> </li>
+                                <li> <a class="log-out" href="#"><img class="pp-icon-img"
+                                            src="./images/logout.png">Logout </a> </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <div class="main-page">
+            <!-- Side navbar -->
+            <div class="side-bar">
+
+                <aside class="side-bar-center">
+                    <ul class="list">
+                        <li class="list-item active">
+                            <i class="list-item-icon  list-icon-1 fas fa-home"></i>
+                            <span class="list-item-text">Home</span>
+                        </li>
+                        <li class="list-item">
+                            <i class="list-item-icon fas fa-search"></i>
+                            <span class="list-item-text">Search</span>
+                        </li>
+                        <li class="list-item ">
+                            <i class="list-item-icon fas fa-stream"></i>
+                            <span class="list-item-text">Insights</span>
+                        </li>
+                        <li class="list-item">
+                            <i class="list-item-icon fas fa-book"></i>
+                            <span class="list-item-text">Docs</span>
+                        </li>
+                        <li class="list-item">
+                            <i class="list-item-icon fas fa-users"></i>
+                            <span class="list-item-text">People</span>
+                        </li>
+                        <li class="list-item">
+                            <i class="list-item-icon fas fa-toolbox"></i>
+                            <span class="list-item-text">Services</span>
+                        </li>
+                        <li class="list-item">
+                            <i class="list-item-icon fas fa-shopping-basket"></i>
+                            <span class="list-item-text">Market</span>
+                        </li>
+                        <li class="list-item">
+                            <i class="list-item-icon far fa-question-circle"></i>
+                            <span class="list-item-text">Q&A</span>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <main>
+                <div class="main-content">
+                    <div>
+                        <div class="slider">
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-1">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-2">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                            <div class="profile-3">
+                                <a class="profile-btn">
+                                    <img src="./images/profilehashnode.webp" class="slider-profile">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="main-img" src="./images/main-img.png">
+
+                    <div class="tabs-main">
+                        <input type="radio" class="tabs__radio-main" name="tabs-example-main" id="tabm1" checked>
+                        <label for="tabm1" class="tabs__label-main">My Feed</label>
+                        <div class="tabs__content-main">
+                            <div class="mmfirst">
+                                <div class="mm-1">
+                                    <div class="mm-1-left">
+                                        <div class="human-img">
+                                            <img src="./images/mm-img-1.webp" class="human-pic">
+                                        </div>
+                                        <div class="human-data">
+                                            <div class="human-bio">
+                                                <a class="human-name">Yusufcan Yilmaz</a>
+                                                <span class="dot">.</span>
+                                                <a class="human-date">Jun 20, 2022</a>
+                                            </div>
+                                            <div class="human-blog">
+                                                <a class="human-web">blog.yusufcanyilmaz.com</a>
+                                                <span class="dot">.</span>
+                                                <img class="book-img" src="./images/book.png">
+                                                <a class="human-time">5 mins read</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div><button class="green-btn">
+                                        <img class="star" src="./images/star.png">FEATURED
+                                       </button>
+                                    </div> -->
+                                </div>
+                                <div class="mm-2">
+                                    <div class="human-text">
+                                        <h2 class="human-text-head">Early Nuxt 3 Review
+                                        </h2>
+                                        <p class="mm-2-human-para">
+                                            Hi again, everyone! In this article you'll find all the answers to all your
+                                            questions about Nuxt 3. First of all, we'll talk about what updates we've
+                                            seen so far in Nuxt 3.In this article you'll ....
+                                        </p>
+
+                                    </div>
+                                    <div class="human-text-photo">
+                                        <img src="./images/img.webp" class="human-text-img">
+                                    </div>
+                                </div>
+                                <div class="mm-3">
+                                    <div class="mm3-left">
+                                        <div class="bookmarks-div">
+                                            <img class="bookmark-img" src="./images/ribbon.png">
+                                        </div>
+                                        <div class="tags-div">
+                                            <button class="main-end-btn">React JS</button>
+                                            <button class="main-end-btn">Nuxt JS</button>
+                                            <button class="main-end-btn"> +2</button>
+
+                                        </div>
+                                    </div>
+                                    <div class="mm3-right">
+                                        <div class="likes">
+                                            <div class="like">
+                                                <img src="./images/like.png" class="i-img">
+                                                <span>150</span>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                <span>20</span>
+                                            </div>
+                                            <a class="images">
+                                                <div class="img1-div">
+                                                    <span class="img1-span">
+                                                        <img class="img1-img" src="./images/img1-img.webp">
+                                                    </span>
+                                                </div>
+                                                <div class="img2-div">
+                                                    <span class="img1-span">
+                                                        <img class="img2-img" src="./images/img2-img.jpeg">
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="main-hr">
+                            <div class="mmfirst">
+                                <div class="mm-1">
+                                    <div class="mm-1-left">
+                                        <div class="human-img">
+                                            <img src="./images/mm-img-2.webp" class="human-pic">
+                                        </div>
+                                        <div class="human-data">
+                                            <div class="human-bio">
+                                                <a class="human-name">Chris Bongers</a>
+                                                <span class="dot">.</span>
+                                                <a class="human-date">Jun 20, 2022</a>
+                                            </div>
+                                            <div class="human-blog">
+                                                <a class="human-web">h.daily-dev-tips.com</a>
+                                                <span class="dot">.</span>
+                                                <img class="book-img" src="./images/book.png">
+                                                <a class="human-time">5 mins read</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div><button class="green-btn">
+                                        <img class="star" src="./images/star.png">FEATURED
+                                       </button>
+                                    </div> -->
+                                </div>
+                                <div class="mm-2">
+                                    <div class="human-text">
+                                        <h2 class="human-text-head">Revue - Sendy sync:
+                                        </h2>
+                                        <p class="mm-2-human-para">
+                                            Now that we have a good understanding of all the API calls we need to make,
+                                            we can start setting up the project. I'll be building this project as a Node
+                                            project simply because it's the lowest overhead…
+                                        </p>
+
+                                    </div>
+                                    <div class="human-text-photo">
+                                        <img src="./images/pp-main.webp" class="human-text-img">
+                                    </div>
+                                </div>
+                                <div class="mm-3">
+                                    <div class="mm3-left">
+                                        <div class="bookmarks-div">
+                                            <img class="bookmark-img" src="./images/ribbon.png">
+                                        </div>
+                                        <div class="tags-div">
+                                            <button class="main-end-btn">React JS</button>
+                                            <button class="main-end-btn">Nuxt JS</button>
+                                            <button class="main-end-btn"> +2</button>
+
+                                        </div>
+                                    </div>
+                                    <div class="mm3-right">
+                                        <div class="likes">
+                                            <div class="like">
+                                                <img src="./images/like.png" class="i-img">
+                                                <span>150</span>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                <span>20</span>
+                                            </div>
+                                            <a class="images">
+                                                <div class="img1-div">
+                                                    <span class="img1-span">
+                                                        <img class="img1-img" src="./images/img1-img.webp">
+                                                    </span>
+                                                </div>
+                                                <div class="img2-div">
+                                                    <span class="img1-span">
+                                                        <img class="img2-img" src="./images/img2-img.jpeg">
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- <div class="box">
+                                <div class="box-first">
+                                    <div class="box-1-content">
+                                        <p>Recommended blog for you </p>
+                                        <i></i>
+                                    </div>
+                                    <div>
+                                        <button>See More</button>
+                                    </div>
+                                </div>
+                                <div class="box-second">
+                                    <div class="box-1">
+                                        <div class="box-1-left">
+                                            <div>
+                                                <img class="box-pp-img" src="./images/personpp.webp">
+                                            </div>
+                                            <div>
+                                                <h2>SruthiCodes</h2>
+                                                <p>sruthicodes.hashnode.dev</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-1-right">
+                                            <button><i class="list-item-icon fas fa-shopping-basket"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="box-2">
+                                        <div class="box-2-left">
+                                            <div>
+                                                <img class="box-pp-img" src="./images/personpp.webp">
+                                            </div>
+                                            <div>
+                                                <h2>SruthiCodes</h2>
+                                                <p>sruthicodes.hashnode.dev</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-2-right">
+                                            <button><i class="list-item-icon fas fa-shopping-basket"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="box-3">
+                                        <div class="box-3-left">
+                                            <div>
+                                                <img class="box-pp-img" src="./images/personpp.webp">
+                                            </div>
+                                            <div>
+                                                <h2>SruthiCodes</h2>
+                                                <p>sruthicodes.hashnode.dev</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-3-right">
+                                            <button><i class="list-item-icon fas fa-shopping-basket"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="box-4">
+                                        <div class="box-4-left">
+                                            <div>
+                                                <img class="box-pp-img" src="./images/personpp.webp">
+                                            </div>
+                                            <div>
+                                                <h2>SruthiCodes</h2>
+                                                <p>sruthicodes.hashnode.dev</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-2-right">
+                                            <button><i class="list-item-icon fas fa-shopping-basket"></i></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <input type="radio" class="tabs__radio-main" name="tabs-example-main" id="tabm2">
+                        <label for="tabm2" class="tabs__label-main">Featured</label>
+                        <div class="tabs__content-main">
+                            <div class="mmfirst">
+                                <div class="mm-1">
+                                    <div class="mm-1-left">
+                                        <div class="human-img">
+                                            <img src="./images/mm-img-1.webp" class="human-pic">
+                                        </div>
+                                        <div class="human-data">
+                                            <div class="human-bio">
+                                                <a class="human-name">Victoria Lo</a>
+                                                <span class="dot">.</span>
+                                                <a class="human-date">Jun 24, 2022</a>
+                                            </div>
+                                            <div class="human-blog">
+                                                <a class="human-web">lo-victoria.com</a>
+                                                <span class="dot">.</span>
+                                                <img class="book-img" src="./images/book.png">
+                                                <a class="human-time">4 mins read</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div><button class="green-btn">
+                                        <img class="star" src="./images/star.png">FEATURED
+                                       </button>
+                                    </div> -->
+                                </div>
+                                <div class="mm-2">
+                                    <div class="human-text">
+                                        <h2 class="human-text-head">String and String Ops.
+                                        </h2>
+                                        <p class="mm-2-human-para">
+                                            Strings in Js is simply text wrapped in quotes. You can use double or single
+                                            quotes, just be consistent. let myName = 'Gayatri'; let myFullName =
+                                            "Gayatri Kumar"; let friendsName = 'Pabo Shivrav'; In…
+                                        </p>
+
+                                    </div>
+                                    <div class="human-text-photo">
+                                        <img src="./images/jsimg.webp" class="human-text-img">
+                                    </div>
+                                </div>
+                                <div class="mm-3">
+                                    <div class="mm3-left">
+                                        <div class="bookmarks-div">
+                                            <img class="bookmark-img" src="./images/ribbon.png">
+                                        </div>
+                                        <div class="tags-div">
+                                            <button class="main-ened-btn">React JS</button>
+                                            <button class="main-ened-btn">Nuxt JS</button>
+                                            <button class="main-ened-btn"> +2</button>
+
+                                        </div>
+                                    </div>
+                                    <div class="mm3-right">
+                                        <div class="likes">
+                                            <div class="like">
+                                                <img src="./images/like.png" class="i-img">
+                                                <span>150</span>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                <span>20</span>
+                                            </div>
+                                            <a class="images">
+                                                <div class="img1-div">
+                                                    <span class="img1-span">
+                                                        <img class="img1-img" src="./images/img1-img.webp">
+                                                    </span>
+                                                </div>
+                                                <div class="img2-div">
+                                                    <span class="img1-span">
+                                                        <img class="img2-img" src="./images/img2-img.jpeg">
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="radio" class="tabs__radio-main" name="tabs-example-main" id="tabm3">
+                        <label for="tabm3" class="tabs__label-main">Recent</label>
+                        <div class="tabs__content-main">
+                        </div>
+                    </div>
+                </div>
+                <hr class="normal">
+            </main>
+
+            <div class="right-end-content">
+                <div class="accordion">
+                    <div>
+                        <input type="radio" name="example_accordion" id="section1" class="accordion__input"
+                            checked="checked">
+                        <label for="section1" class="accordion__label">Trending Articles</label>
+                        <!-- <button class="acc-btn">EXPLORE</button> -->
+                        <div class="accordion__content">
+                            <div class="tabs">
+                                <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked="checked">
+                                <label for="tab1" class="tabs__label">1 week</label>
+                                <div class="tabs__content">
+                                    <hr class="tabs-hr">
+                                    <div class="persons">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/right-profile.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head">The Epic Hashnode</h3>
+                                                <h3 class="head"> Writeathon — The winners! 🏅</h3>
+                                                <p class="pp-name">Syed Fazle Rahman</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>150</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>20</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg2.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head"> Introducing Article Scheduling</h3>
+                                                <!-- <h2> Writeathon — The winners! 🏅</h2> -->
+                                                <p class="pp-name">Diala Abul-Khail</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>100</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+
+
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg3.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h2 class="head">Steps To Build A Professional Next.js Portfolio</h2>
+                                                <!-- <h2> Writeathon — The winners! 🏅</h2> -->
+                                                <p class="pp-name">Eleftheria Batsou</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>254</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>44</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn">Show more</button>
+
+                                    </div>
+                                </div>
+                                <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+                                <label for="tab2" class="tabs__label">2 weeks</label>
+                                <div class="tabs__content">
+                                    <hr>
+                                    <div class="persons">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg2.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head"> Introducing Article Scheduling</h3>
+
+                                                <p class="pp-name">Diala Abul-Khail</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>100</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+
+
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg3.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h2 class="head">Steps To Build A Professional Next.js Portfolio</h2>
+                                                <p class="pp-name">Eleftheria Batsou</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>254</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>44</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/right-profile.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head">The Epic Hashnode</h3>
+                                                <h3 class="head"> Writeathon — The winners! 🏅</h3>
+                                                <p class="pp-name">Syed Fazle Rahman</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>150</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>20</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn">Show more</button>
+
+                                    </div>
+                                </div>
+                                <input type="radio" class="tabs__radio" name="tabs-example" id="tab3">
+                                <label for="tab3" class="tabs__label">3 weeks</label>
+                                <div class="tabs__content">
+                                    <hr>
+                                    <div class="persons">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/right-profile.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head">The Epic Hashnode</h3>
+                                                <h3 class="head"> Writeathon — The winners! 🏅</h3>
+                                                <p class="pp-name">Syed Fazle Rahman</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>150</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>20</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg3.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h2 class="head">Steps To Build A Professional Next.js Portfolio</h2>
+                                                <!-- <h2> Writeathon — The winners! 🏅</h2> -->
+                                                <p class="pp-name">Eleftheria Batsou</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>254</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>44</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg2.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head"> Introducing Article Scheduling</h3>
+                                                <!-- <h2> Writeathon — The winners! 🏅</h2> -->
+                                                <p class="pp-name">Diala Abul-Khail</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>100</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn">Show more</button>
+
+                                    </div>
+                                </div>
+                                <input type="radio" class="tabs__radio" name="tabs-example" id="tab4">
+                                <label for="tab4" class="tabs__label">4 weeks</label>
+                                <div class="tabs__content">
+                                    <hr>
+                                    <div class="persons">
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/right-profile.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head">The Epic Hashnode</h3>
+                                                <h3 class="head"> Writeathon — The winners! 🏅</h3>
+                                                <p class="pp-name">Syed Fazle Rahman</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>150</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>20</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg2.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h3 class="head"> Introducing Article Scheduling</h3>
+                                                <!-- <h2> Writeathon — The winners! 🏅</h2> -->
+                                                <p class="pp-name">Diala Abul-Khail</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>100</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="p-hr">
+
+
+                                        <div class="person-1">
+                                            <div class="pp-img">
+                                                <img src="./images/ppimg3.webp" class="profile-pic">
+                                            </div>
+                                            <div class="pp-data">
+                                                <h2 class="head">Steps To Build A Professional Next.js Portfolio</h2>
+                                                <!-- <h2> Writeathon — The winners! 🏅</h2> -->
+                                                <p class="pp-name">Eleftheria Batsou</p>
+                                                <div class="likes">
+                                                    <div class="like">
+                                                        <img src="./images/like.png" class="i-img">
+                                                        <span>254</span>
+                                                    </div>
+                                                    <div class="comment">
+                                                        <img src="./images/bubble-chat.png" class="i-img" alt="">
+                                                        <span>44</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn">Show more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                        </div>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="example_accordion" id="section2" class="accordion__input">
+                        <label for="section2" class="accordion__label">Bookmarks</label>
+                        <div class="accordion__content">
+                            <div class="bookmarks">
+                                <div class="book-inner">
+                                    <p class="bookmarks-content"> Nothing to write here yet👋</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="example_accordion" id="section3" class="accordion__input">
+                        <label for="section3" class="accordion__label">Writing Challenges</label>
+                        <div class="accordion__content">
+                            <div class="tabs-1">
+                                <input type="radio" class="tabs__radio-1" name="tabs-examples" id="tab-1" checked>
+                                <label for="tab-1" class="tabs__label-1">UP for Grabs</label>
+                                <div class="tabs__content-1">
+                                    <div class="content">
+                                        <div class="data-1">
+                                            <div class="data-1-div">
+                                                <img class="data-1-img" src="./images/data1img.webp">
+                                            </div>
+                                            <div class="data-1-content">
+                                                <h2 class="head-1">#2Articles1Week Challenge</h2>
+                                                <p class="body-1">Become better at technical writing; accept Hashnode's
+                                                    writing challenge for four weeks.</p>
+                                            </div>
+                                        </div>
+                                        <hr class="data-hr">
+                                        <div class="data-1">
+                                            <div class="data-1-div">
+                                                <img class="data-1-img" src="./images/women-tech.png">
+                                            </div>
+                                            <div class="data-1-content">
+                                                <h2 class="head-1">#2Articles1Week Challenge</h2>
+                                                <p class="body-1">Become better at technical writing; accept Hashnode's
+                                                    writing challenge for four weeks.</p>
+                                            </div>
+
+                                        </div>
+                                        <hr class="data-hr">
+
+                                        <div class="data-1">
+                                            <div class="data-1-div">
+                                                <img class="data-1-img" src="./images/bulbimg.png">
+                                            </div>
+                                            <div class="data-1-content">
+                                                <h2 class="head-1">Crazy Blogger</h2>
+                                                <p class="body-1">Publish an article every day for 7 days and earn a
+                                                    cool crazy blogger badge!.</p>
+                                            </div>
+
+                                        </div>
+                                        <hr class="data-hr">
+
+                                        <div class="data-1">
+                                            <div class="data-1-div">
+                                                <img class="data-1-img" src="./images/data1img.webp">
+                                            </div>
+                                            <div class="data-1-content">
+                                                <h2 class="head-1">#WomenWhoTech</h2>
+                                                <p class="body-1">
+                                                    Share your story, achievements, or experiences as a woman,
+                                                    non-binary folk in tech or as a #WomenWhoTech ally!.</p>
+                                            </div>
+
+                                        </div>
+                                        <hr class="data-hr">
+                                    </div>
+
+                                </div>
+                                <input type="radio" class="tabs__radio-1" name="tabs-examples" id="tab-2">
+                                <label for="tab-2" class="tabs__label-1">Completed</label>
+                                <div class="tabs__content-1">
+                                    <div class="bookmarks-1">
+                                        <div class="book-inner">
+                                            <p class="bookmarks-content"> You haven't completed anything yet.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hello -->
+            <!-- HERE -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
