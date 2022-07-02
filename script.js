@@ -6,6 +6,7 @@ const toggleMenu = document.querySelector(".menu");
 let tabs = document.querySelectorAll('.tabs__toggle')
 let contents = document.querySelectorAll('.tabs__contents')
 // const nav__menu = document.querySelector('nav__menu')
+let sidebar = document.querySelector('.side-bar-1')
 
 
 // console.log(tabs,contents)
