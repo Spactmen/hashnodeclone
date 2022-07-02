@@ -50,7 +50,7 @@ window.addEventListener('mouseup',function(e){
       toggleMenu.classList.remove('active')
     }
     if(e.target.id !=='header' && e.target.id !=='sidebar'){
-      sidebar.classList.remove('active')
+      mobile_menu.classList.remove('active')
     }
   // var menu = document.getElementsByClassName('.menu');
   // console.log(menu);
