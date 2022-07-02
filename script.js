@@ -49,11 +49,15 @@ window.addEventListener('mouseup',function(e){
     if(e.target.id !=='header' && e.target.id !=='toggleMenu'){
       toggleMenu.classList.remove('active')
     }
+    if(e.target.id !=='header' && e.target.id !=='sidebar'){
+      sidebar.classList.remove('active')
+    }
   // var menu = document.getElementsByClassName('.menu');
   // console.log(menu);
   // if(event.target != menu && event.target.parentNode != menu){
   //     menu.style.display = 'none';
   // }
 });  
+
 
 
