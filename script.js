@@ -39,7 +39,7 @@ window.addEventListener('mouseover', function (e) {
 function menuToggle() {
   toggleMenu.classList.toggle('active')
 }
-
+console.log(head)
 window.addEventListener('mouseover', function (e) {
   console.log(head)
   if (e.target.id !== 'head' && e.target.id !== 'toggleMenu') {
