@@ -2,6 +2,7 @@ const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.mobile-nav')
 const nav_bottom = document.querySelector('.nav__menu')
 const header = document.getElementById("#head")
+const head = document.queryselector('.header')
 const toggleMenu = document.querySelector(".menu");
 let tabs = document.querySelectorAll('.tabs__toggle')
 let contents = document.querySelectorAll('.tabs__contents')
@@ -40,7 +41,7 @@ function menuToggle() {
 }
 
 window.addEventListener('mouseover', function (e) {
-  if (e.target.id !== 'header' && e.target.id !== 'toggleMenu') {
+  if (e.target.id !== 'head' && e.target.id !== 'toggleMenu') {
     toggleMenu.classList.remove('active')
   }
 });
