@@ -41,6 +41,7 @@ function menuToggle() {
 }
 
 window.addEventListener('mouseover', function (e) {
+  console.log(head)
   if (e.target.id !== 'head' && e.target.id !== 'toggleMenu') {
     toggleMenu.classList.remove('active')
   }
