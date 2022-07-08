@@ -1,14 +1,11 @@
 const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.mobile-nav')
 const nav_bottom = document.querySelector('.nav__menu')
-const header = document.querySelector('#head')
 const toggleMenu = document.querySelector(".menu");
 const rightEnd = document.querySelector('.right-end-nav')
 const profile = document.querySelector('.profile')
-const profileImg = document.querySelector('.m-p-img')
 let tabs = document.querySelectorAll('.tabs__toggle')
 let contents = document.querySelectorAll('.tabs__contents')
-const body = document.querySelector('.main-body')
 
 // profile-sec-img
 tabs.forEach((tab, index) => {
