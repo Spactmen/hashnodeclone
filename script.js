@@ -1,13 +1,16 @@
 const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.mobile-nav')
 const nav_bottom = document.querySelector('.nav__menu')
-const header = document.getElementById("#head")
-const head = document.queryselector('.header')
+const header = document.querySelector('#head')
 const toggleMenu = document.querySelector(".menu");
+const rightEnd = document.querySelector('.right-end-nav')
+const profile = document.querySelector('.profile')
+const profileImg = document.querySelector('.m-p-img')
 let tabs = document.querySelectorAll('.tabs__toggle')
 let contents = document.querySelectorAll('.tabs__contents')
+const body = document.querySelector('.main-body')
 
-
+// profile-sec-img
 tabs.forEach((tab, index) => {
   tab.addEventListener('click', () => {
     contents.forEach((content) => {
@@ -21,32 +24,14 @@ tabs.forEach((tab, index) => {
   });
 })
 
-menu_btn.addEventListener('click', function () {
+menu_btn.addEventListener('click', function (e) {
   menu_btn.classList.toggle('is-active');
   mobile_menu.classList.toggle('is-active');
   nav_bottom.classList.toggle('is-active')
 
 });
 
-window.addEventListener('mouseover', function (e) {
-  if (/*e.target.id !== 'nav_bottom' && */e.target.id !== 'mobile_menu' && e.target.id !== 'menu_btn') {
-    menu_btn.classList.remove('is-active');
-    mobile_menu.classList.remove('is-active');
-    nav_bottom.classList.remove('is-active')
-  }
-})
 
 function menuToggle() {
   toggleMenu.classList.toggle('active')
 }
-console.log(head)
-window.addEventListener('mouseover', function (e) {
-  console.log(head)
-  if (e.target.id !== 'head' && e.target.id !== 'toggleMenu') {
-    toggleMenu.classList.remove('active')
-  }
-});
-
-
-
-
