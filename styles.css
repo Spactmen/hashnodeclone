@@ -603,7 +603,7 @@ html {
   right: 20px;
   width: 20px;
   height: 10px;
-  background-image: url(./images/up-arrow.png);
+  background-image: url(./up-arrow.png);
   background-size: 100px;
   background-repeat: no-repeat;
   /* background-color: white; */
